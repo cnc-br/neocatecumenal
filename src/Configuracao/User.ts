@@ -1,4 +1,4 @@
-import { Pessoa } from "../Caminho";
+import { Paroquia, Pessoa } from "../Caminho";
 
 export default interface User {
   id: string;
@@ -7,6 +7,7 @@ export default interface User {
   whatsapp: string;
   pessoaId?: number;
   pessoa?: Pessoa;
+  paroquias: Paroquia[];
   verifiedWhatsapp: boolean;
   active: boolean;
   createdAt: Date;
