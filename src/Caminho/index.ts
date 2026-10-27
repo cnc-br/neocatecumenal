@@ -14,6 +14,7 @@ import Equipe from "./Equipe";
 import CarismaEquipe from "./CarismaEquipe";
 import ComunidadeEtapa from "./ComunidadeEtapa";
 import Etapa from "./Etapa";
+import PessoaContato from "./PessoaContato";
 
 export {
   CarismaEquipe,
@@ -24,6 +25,7 @@ export {
   Pais,
   Pessoa,
   PessoaConjugue,
+  PessoaContato,
   Paroquia,
   MacroRegiao,
   Setor,

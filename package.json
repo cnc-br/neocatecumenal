@@ -1,6 +1,6 @@
 {
   "name": "neocatecumenal",
-  "version": "2.6.3",
+  "version": "2.6.4",
   "description": "Libs compartilhadas entre app do CNC",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -15,7 +15,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/leonardocintra/neocatecumenal.git"
+    "url": "git+https://github.com/cnc-br/neocatecumenal.git"
   },
   "keywords": [
     "neocatecumenal"
@@ -27,9 +27,9 @@
   },
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/leonardocintra/neocatecumenal/issues"
+    "url": "https://github.com/cnc-br/neocatecumenal/issues"
   },
-  "homepage": "https://github.com/leonardocintra/neocatecumenal#readme",
+  "homepage": "https://github.com/cnc-br/neocatecumenal#readme",
   "devDependencies": {
     "typescript": "^5.9.2"
   }
