@@ -3,6 +3,7 @@ import PessoaConjugue from "./PessoaConjugue";
 import SituacaoReligiosa from "../Configuracao/SituacaoReligiosa";
 import { Carisma } from "../Configuracao";
 import Comunidade from "./Comunidade";
+import PessoaContato from "./PessoaContato";
 
 export default interface Pessoa {
   id: number;
@@ -19,6 +20,7 @@ export default interface Pessoa {
   escolaridade: string;
   enderecos?: Endereco[];
   conjugue?: PessoaConjugue;
+  contatos?: PessoaContato[];
   situacaoReligiosa: SituacaoReligiosa;
   carismas?: Carisma[];
   comunidade?: Comunidade;

@@ -3,4 +3,5 @@ export enum EstadoCivilEnum {
   CASADO = "CASADO",
   DIVORCIADO = "DIVORCIADO",
   VIUVO = "VIUVO",
+  NAO_INFORMADO = "NAO_INFORMADO",
 }
