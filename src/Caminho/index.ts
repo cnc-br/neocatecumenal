@@ -15,9 +15,11 @@ import CarismaEquipe from "./CarismaEquipe";
 import ComunidadeEtapa from "./ComunidadeEtapa";
 import Etapa from "./Etapa";
 import PessoaContato from "./PessoaContato";
+import ComunidadeCarisma from "./ComunidadeCarisma";
 
 export {
   CarismaEquipe,
+  ComunidadeCarisma,
   Cidade,
   Diocese,
   Endereco,

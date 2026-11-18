@@ -7,7 +7,6 @@ export default interface ComunidadeEtapa {
   etapa: Etapa;
   equipe?: Equipe;
   dataInicio?: Date;
-  dataFim?: Date;
   localConvivencia?: string;
   observacao?: string;
   createdAt: Date;

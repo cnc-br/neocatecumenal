@@ -1,3 +1,4 @@
+import ComunidadeCarisma from "./ComunidadeCarisma";
 import ComunidadeEtapa from "./ComunidadeEtapa";
 import Etapa from "./Etapa";
 import Paroquia from "./Paroquia";
@@ -10,4 +11,5 @@ export default interface Comunidade {
   etapaAtual: Etapa;
   comunidadeEtapas: ComunidadeEtapa[];
   observacao?: string;
+  carismas?: ComunidadeCarisma[];
 }
